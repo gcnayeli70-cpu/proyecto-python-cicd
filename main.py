@@ -1,7 +1,7 @@
 def calcular_area(base, altura):
     if base <= 0 or altura <= 0:
         raise ValueError("La base y la altura deben ser valores positivos")
-        return base * altura
+    return base * altura
 
 
 if __name__ == "__main__":
